@@ -1,1 +1,1 @@
-print("Чтобы получить 100 баллов по Пи нужно следующее:\nАхахаха, это невозможно!!!")
+print("To get 100 points on Pi, you need the following:\nAhahaha, this is impossible!!!")
