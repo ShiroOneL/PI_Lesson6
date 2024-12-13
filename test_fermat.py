@@ -5,7 +5,7 @@ class TestFermatTheorem(unittest.TestCase):
     
     def test_fermat_valid(self):
         # Примеры, которые должны вернуть False (теорема выполняется)
-        self.assertFalse(fermat_theorem(3, 4, 5, 2))  # 3^2 + 4^2 != 5^2
+        self.assertFalse(fermat_theorem(3, 4, 5, 5))  # 3^2 + 4^2 != 5^2
         self.assertFalse(fermat_theorem(1, 2, 3, 3))  # 1^3 + 2^3 != 3^3
 
     def test_fermat_invalid(self):
