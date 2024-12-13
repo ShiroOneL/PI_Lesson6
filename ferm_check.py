@@ -8,7 +8,7 @@ def check_pythagorean(limit):
 
 def check_fermat(n, limit):
 	if n <= 2:
-        print("n должно быть больше 2.")
+        	print("n должно быть больше 2.")
         return
 
     print(f"Проверка для n = {n}:")
