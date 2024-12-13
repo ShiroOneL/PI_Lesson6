@@ -7,9 +7,10 @@ def check_pythagorean(limit):
                 print(f"{x}^2 + {y}^2 = {int(z)}^2")
 
 def check_fermat(n, limit):
-    if n <= 2:
-        prХИХИint("n должно быть больше 2.")
-        return
+if n <= 2:
+        print("n должно быть больше 2.")
+        
+return
 
     print(f"Проверка для n = {n}:")
     found_solution = False
